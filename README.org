@@ -1,0 +1,7 @@
+[[http://www.flycheck.org/][Flycheck]] support for [[http://dtrace.org/][dtrace]] scripts
+
+Tested on:
+
+- [[http://freebsd.org/][FreeBSD]]
+- [[https://www.oracle.com/linux/index.html][Oracle Linux]]
+
