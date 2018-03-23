@@ -5,3 +5,5 @@ Tested on:
 - [[http://freebsd.org/][FreeBSD]]
 - [[https://www.oracle.com/linux/index.html][Oracle Linux]]
 
+[[http://melpa.org/#/flycheck-dtrace][file:http://melpa.org/packages/flycheck-dtrace-badge.svg]]
+
