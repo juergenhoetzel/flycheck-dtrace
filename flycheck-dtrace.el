@@ -37,6 +37,14 @@ See URL `https://www.freebsd.org/doc/handbook/dtrace.html'."
 	  "dtrace: failed to compile script " (file-name) ": line " line ": " (message)
           line-end))
   :modes dtrace-script-mode)
+
+;;;###autoload
+(defun flycheck-dtrace-setup ()
+  "Setup Flycheck dtrace.
+Add `dtrace' to `flycheck-checkers'."
+  (interactive)
+  (add-to-list 'flycheck-checkers 'dtrace))
+
 (provide 'flycheck-dtrace)
 ;;; flycheck-dtrace ends here
 
